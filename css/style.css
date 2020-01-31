@@ -1,0 +1,18 @@
+body{
+    font-family: "PT Sans", "Arial", sans-serif;
+}
+
+ul{
+ list-style: none;
+}
+
+.site-navigation{
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.link-item{
+  color: black;
+  text-decoration: none;
+}

@@ -4,17 +4,22 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Седона</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
   <header>
-    <img class="logo" src="#" width="#" height="#" />
+    <nav class="site-navigation">
+    <img class="logo" src="img/svg-sedona/logo-sedona.svg" width="150" height="150" />
     <ul class="site-menu">
-      <li class="item-header"><a href="#">Информация</a></li>
-      <li class="item-header"><a href="#">Фото и видео</a></li>
-      <li class="item-header"><a href="#">Карта штата</a></li>
-      <li class="item-header"><a href="catalog.html">Гостиницы</a></li>
+      <li class="item-header"><a class="link-item" href="#">Информация</a></li>
+      <li class="item-header"><a class="link-item" href="#">Фото и видео</a></li>
+      <li class="item-header"><a class="link-item" href="#">Карта штата</a></li>
+      <li class="item-header"><a class="link-item" href="catalog.html">Гостиницы</a></li>
     </ul>
+  </nav>
   </header>
   <main>
     <header>
@@ -28,7 +33,7 @@
         <h1 class="advantages-title">настоящий городок</h1>
         <span class="advantages-number">-№1-</span>
         <p class="advantages-description">седона-не аттракцион для туристов, там течёт своя жизнь</p>
-        <img class="advantages" src="#" />
+        <img class="advantages" src="img/housing.png" />
       </div>
       <ul class="advantages-list">
         <li class="advantages-item">
@@ -54,12 +59,8 @@
         <h1 class="advantages-title">Там есть мост Дьявола</h1>
         <span class="advantages-number">-№2-</span>
         <p class="advantages-description">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
-        <img class="advantages" src="#" />
+        <img class="advantages" src="img/bridge.png" />
       </div>
-      <h2 class="advantages__title">Там есть мост дьявола</h2>
-      <span>-№2-</span>
-      <p class="advantages__description">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
-      <img class="advantages__image" src="#" alt="Фото мост дьявола">
       <div class="advantages-conteiner">
         <div class="advantages-box">
           <div class="advantages-box">
@@ -87,6 +88,7 @@
       <p class="contacts-text">
         Укажите предполагаемые даты поездки, и мы покажем вам лучшие прелдложения гостиниц в седоне</p>
       <a href="#" class="contacts-buttom">Найти гостиницу</a>
+        <img class="contacts__image" src="img/map.png" alt="Карта Седон">
     </div>
     <p class="hashtag">#visitsedona</p>
     <p>Тел: +7(495) 666-02-66</p>
